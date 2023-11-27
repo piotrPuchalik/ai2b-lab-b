@@ -1,0 +1,37 @@
+#frame {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#frame > div {
+  margin-bottom: 15px;
+}
+
+#frame ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#frame li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+#frame a {
+  color: #dc3545;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+#frame a:hover {
+  text-decoration: underline;
+}
